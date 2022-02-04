@@ -21,7 +21,7 @@ const Form = ({
       <Typography variant="h4">Склонение существительных</Typography>
       <TextField
         autoComplete="off"
-        label="Введите слово"
+        label="Введите слово в именительном падеже"
         variant="outlined"
         value={inputText}
         onChange={handleInput}
